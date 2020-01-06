@@ -7,13 +7,34 @@
     "dev": "next",
     "build": "next build",
     "start": "next start"
-  },  
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
     "next": "^9.1.7",
     "react": "^16.12.0",
-    "react-dom": "^16.12.0"
+    "react-dom": "^16.12.0",
+    "react-feather": "^2.0.3",
+    "styled-components": "^4.4.1"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.6",
+    "@types/jest": "^24.0.25",
+    "@types/mocha": "^5.2.7",
+    "@types/node": "^13.1.4",
+    "@types/react": "^16.9.17",
+    "@typescript-eslint/eslint-plugin": "^2.14.0",
+    "@typescript-eslint/parser": "^2.14.0",
+    "babel-eslint": "^10.0.3",
+    "babel-plugin-styled-components": "^1.10.6",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.9.0",
+    "eslint-plugin-cypress": "^2.8.1",
+    "eslint-plugin-prettier": "^3.1.2",
+    "prettier": "^1.19.1",
+    "prettier-eslint": "^9.0.1",
+    "typescript": "^3.7.4",
+    "typescript-eslint-parser": "^22.0.0"
   }
 }
